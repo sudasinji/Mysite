@@ -113,6 +113,7 @@ header{
 }
 .bg-3 {
 	background-image: url(img/write.jpg);
+	margin-right: 0;
 }
 .bg-4 {
 	background-image: url(img/webcamp.png);
@@ -122,10 +123,9 @@ header{
 }
 .bg-6 {
 	background-image: url(img/webcamp-mother.png);
-}
-.sp-none{
 	margin-right: 0;
 }
+
 #feature{
 	background-size: cover;
 	background-position: center;
@@ -324,7 +324,7 @@ footer{
 	}
 
 	#mv{
-		background-image: url(img/mv.png);
+		background-image: url(img/code.png);
 	}
 
 	.mv-title{
