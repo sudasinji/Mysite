@@ -166,6 +166,8 @@ header{
 .left-content{
 	width:50%;
 	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
 }
 .my-face {
 	width:250px;
@@ -173,6 +175,12 @@ header{
 	margin:  0 auto;
 	border-radius: 50%;
 	background-image: url(img/my-icon.jpg);
+}
+.right-content{
+	width: 50%;
+	display: inline-block;
+	float:right;
+	margin: 0 auto;
 }
 .discription-title:first-child{
 	margin-top: 0;
@@ -185,12 +193,15 @@ header{
 	font-size: 16px;
 }
 
-
+.fa{
+	display: inline-block;
+	text-rendering: auto;
+}
 
 .contact-group{
 	width:800px;
 	padding: 30px 0 90px 0;
-	margin:0 auto;
+	margin: 0 auto;
 }
 .left-contact-content{
 	width: 130px;
@@ -207,6 +218,7 @@ header{
 	text-decoration: underline;
 	color:#212121;
 }
+
 .right-cotact-content{
 	width:170px;
 	margin: 0 auto;
@@ -240,6 +252,9 @@ footer{
 
 @media(max-width: 768px){
 
+
+
+	
 	.container{
 		width: 90%;
 	}
@@ -266,6 +281,10 @@ footer{
 	.logo{
 		float: none;
 		height: 50px;
+	}
+
+	.list-bar:first-child {
+    margin-top: 10px;
 	}
 
 	.menu-box{
@@ -305,7 +324,7 @@ footer{
 	}
 
 	#mv{
-		background-image: url(img/code.png);
+		background-image: url(img/mv.png);
 	}
 
 	.mv-title{
@@ -374,4 +393,5 @@ footer{
 		font-size: 50px;
 		margin-right: 8px;
 	}
+
 }
